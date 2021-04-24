@@ -1,0 +1,6 @@
+CONFIGURACAO DE SETUP REACT-NEXT-STYLED-TYPE
+
+yarn create next-app
+
+yarn add typescript @types/react @types/node -D
+
