@@ -4,19 +4,27 @@ const CompetenciasWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    padding: 3rem 10rem;
 
     height: calc(100vh - 3rem);
     overflow: auto;
 
     div {
-        margin-bottom: 1.5rem;
         align-items: center;    
         text-align: center;
+
+        h1 {
+            padding-bottom: 0.8rem;
+        }
+
+        h1+ul {
+            padding-bottom: 1.5rem;
+        }
     }
 
     ul {
-        margin-top: 0.3rem;
+        padding-top: 0.3rem;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -24,7 +32,7 @@ const CompetenciasWrapper = styled.div`
     }
 
     li{
-        margin-right: 1.5rem;
+        padding-right: 1.5rem;
     }
 `;
 
