@@ -4,3 +4,5 @@ yarn create next-app
 
 yarn add typescript @types/react @types/node -D
 
+yarn add gh-pages
+
