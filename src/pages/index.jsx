@@ -35,6 +35,7 @@ export default function Secao() {
             <p>
                 Etiam ornare tortor vel nisi porta rutrum. In et laoreet mauris. Sed id euismod mi. Ut id augue eu lacus cursus commodo vitae a felis. Pellentesque in enim eget nisi elementum mollis. Aliquam lacinia fringilla justo, et lobortis purus congue ac. Fusce fringilla ultrices erat, at consectetur orci iaculis a. Morbi vitae orci scelerisque, condimentum nibh vel, porttitor libero. Nullam eleifend dui odio, eu vestibulum nulla eleifend eget. Ut vitae pulvinar tortor. Praesent vestibulum ante id est lacinia viverra. Nunc quis velit nec risus lobortis scelerisque. Etiam in fringilla orci. Sed convallis sem sagittis rutrum lobortis. Vivamus quis velit in leo scelerisque condimentum. Suspendisse in diam leo.
             </p>
+            <br />
             <Animation />
         </SobreWrapper>
     )

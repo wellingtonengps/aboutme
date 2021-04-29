@@ -10,12 +10,18 @@ export const PerfilWrapperStyles = styled.div`
     justify-content: space-around;
 
     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+
+    box-shadow: 6px 5px 5px rgba(0, 0, 0, 0.2);
     
     
     img {
         height: 15rem;
         width: 15rem;
         border-radius: 50%;
+    }
+
+    h2{
+        color: #999999;
     }   
 
     h1, h2 {

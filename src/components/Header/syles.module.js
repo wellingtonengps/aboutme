@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const HeaderWrapperStyle = styled.header`
-  height: 3.5rem;
+  height: 3rem;
   background-color: ${props => props.theme.colors.primary[0]};
   display: flex;
   justify-content: center;
@@ -18,10 +18,13 @@ ul {
 
 
 li a {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
   color: white;
   text-align: center;
   padding: 3rem 16px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 

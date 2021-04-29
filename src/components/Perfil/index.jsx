@@ -16,12 +16,12 @@ export default function Perfil() {
             </div>
             <SocialWrapperStyles>
                 <ul>
-                    <li><a href="https://github.com/wellingtonengps"><AiFillGithub size="1.5rem" /></a></li>
-                    <li><a href="https://www.linkedin.com/in/wellingtonengps/"><AiFillLinkedin size="1.5rem" /></a></li>
-                    <li><a href=""><SiGmail size="1.5rem" /></a></li>
-                    <li><a href=""><SiDiscord size="1.5rem" /></a></li>
-                    <li><a href=""><SiInstagram size="1.5rem" /></a></li>
-                    <li><a href=""><SiSpotify size="1.5rem" /></a></li>
+                    <li><a href="https://github.com/wellingtonengps" target="_blank"><AiFillGithub size="1.5rem" /></a></li>
+                    <li><a href="https://www.linkedin.com/in/wellingtonengps/" target="_blank"><AiFillLinkedin size="1.5rem" /></a></li>
+                    <li><a href="" target="_blank"><SiGmail size="1.5rem" /></a></li>
+                    <li><a href="" target="_blank"><SiDiscord size="1.5rem" /></a></li>
+                    <li><a href="" target="_blank"><SiInstagram size="1.5rem" /></a></li>
+                    <li><a href="" target="_blank"><SiSpotify size="1.5rem" /></a></li>
                 </ul>
             </SocialWrapperStyles>
             <Animation />
