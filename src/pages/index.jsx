@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Lottie from 'react-lottie';
-import { SobreWrapper } from '../styles/sobre';
+import SobreWrapper from '../styles/sobre';
 import animationData from './Sobre.json';
 
 function Animation() {
@@ -26,7 +26,7 @@ function Animation() {
 }
 
 
-export default function Secao() {
+export default function Sobre() {
     return (
         <SobreWrapper>
             <h2>Hello World!</h2>

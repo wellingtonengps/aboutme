@@ -1,8 +1,11 @@
 import styled from 'styled-components'
 
-export const SobreWrapper = styled.div`
+const SobreWrapper = styled.div`
     padding: 3rem 10rem;
-
+    
+    height: calc(100vh - 3rem);
+    overflow: auto;
+    
     h2 {
         font-size: 2rem;
 
@@ -21,3 +24,4 @@ export const SobreWrapper = styled.div`
     }
 `;
 
+export default SobreWrapper;

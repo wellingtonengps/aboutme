@@ -1,5 +1,7 @@
-export default function Secao() {
+import ProjetosWrapper from '../styles/projetos'
+
+export default function Projetos() {
     return (
-        <div></div>
+        <ProjetosWrapper>projetos</ProjetosWrapper>
     )
 }

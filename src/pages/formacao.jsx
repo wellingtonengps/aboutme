@@ -1,7 +1,8 @@
 import React from 'react'
+import FormacaoWrapper from '../styles/formacao'
 
-export default function Secao() {
+export default function Formacao() {
     return (
-        <div>oi formacao</div>
+        < FormacaoWrapper>formacao</ FormacaoWrapper>
     )
 }

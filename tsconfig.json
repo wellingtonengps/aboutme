@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/components/Perfil/styles.module.js", "src/components/Header/syles.module.js", "src/components/Header/index.jsx", "src/components/Perfil/Animacao/Animation.jsx", "src/pages/_app.jsx", "src/components/Perfil/index.jsx", "src/pages/_document.jsx", "src/pages/competencias.js", "src/pages/formacao.js", "src/pages/projetos.js", "src/pages/index.js", "src/pages/sobre.tsx", "src/styles/theme.js", "src/styles/sobre.js", "src/styles/global.js", "src/styles/app.modules.js", "src/styles/app.modules.js", "src/components/Perfil/styles.module.js"  ],
+, "src/components/Perfil/styles.module.js", "src/components/Header/syles.module.js", "src/components/Header/index.jsx", "src/components/Perfil/Animacao/Animation.jsx", "src/pages/_app.jsx", "src/components/Perfil/index.jsx", "src/pages/_document.jsx", "src/pages/competencias.js", "src/pages/formacao.js", "src/pages/projetos.js", "src/pages/index.js", "src/pages/sobre.tsx", "src/styles/theme.js", "src/styles/sobre.js", "src/styles/global.js", "src/styles/app.modules.js", "src/styles/app.modules.js", "src/components/Perfil/styles.module.js", "src/styles/formacao.js"  ],
   "exclude": [
     "node_modules"
   ]
