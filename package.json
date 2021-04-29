@@ -1,5 +1,5 @@
 {
-  "homepage": "./src/pages/",
+  "homepage": "https://wellingtonengps.github.io/aboutme",
   "name": "aboutme",
   "version": "0.1.0",
   "private": true,
@@ -8,9 +8,8 @@
     "build": "next build",
     "start": "next start",
     "server": "next server",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
-    "prod_start": "NODE_ENV=production node server.js"
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.9",
