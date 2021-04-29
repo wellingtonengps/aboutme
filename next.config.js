@@ -1,4 +1,4 @@
 module.exports = {
-    basePath: '/wellingtonengps',
-    assetPrefix: '/wellingtonengps/',
+    basePath: '/aboutme',
+    assetPrefix: '/aboutme/',
 }
