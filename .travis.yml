@@ -7,7 +7,6 @@ cache:
 script:
   - yarn build 
   - yarn export 
-  - touch out/.nojekyll 
 deploy:
   provider: pages 
   skip_cleanup: true 
