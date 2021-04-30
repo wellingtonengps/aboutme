@@ -8,22 +8,22 @@ export default function Header() {
 
             <ul>
                 <li>
-                    <Link href="http://localhost:3000/">
+                    <Link href="/sobre">
                         <a>Sobre</a>
                     </Link>
                 </li>
                 <li>
-                    <Link href="http://localhost:3000/competencias">
+                    <Link href="/competencias">
                         <a>Competências</a>
                     </Link>
                 </li>
                 <li>
-                    <Link href="http://localhost:3000/formacao">
+                    <Link href="/formacao">
                         <a>Formação</a>
                     </Link>
                 </li>
                 <li>
-                    <Link href="http://localhost:3000/projetos">
+                    <Link href="/projetos">
                         <a>Projetos</a>
                     </Link>
                 </li>
