@@ -8,7 +8,7 @@ export default function Header() {
 
             <ul>
                 <li>
-                    <Link href="/index">
+                    <Link href="/">
                         <a>Sobre</a>
                     </Link>
                 </li>
