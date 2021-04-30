@@ -18,10 +18,9 @@ export default function Perfil() {
                 <ul>
                     <li><a href="https://github.com/wellingtonengps" target="_blank"><AiFillGithub size="1.5rem" /></a></li>
                     <li><a href="https://www.linkedin.com/in/wellingtonengps/" target="_blank"><AiFillLinkedin size="1.5rem" /></a></li>
-                    <li><a href="" target="_blank"><SiGmail size="1.5rem" /></a></li>
-                    <li><a href="" target="_blank"><SiDiscord size="1.5rem" /></a></li>
-                    <li><a href="" target="_blank"><SiInstagram size="1.5rem" /></a></li>
-                    <li><a href="" target="_blank"><SiSpotify size="1.5rem" /></a></li>
+                    <li><a href="https://discord.gg/s5CYPm6keN" target="_blank"><SiDiscord size="1.5rem" /></a></li>
+                    <li><a href="https://www.instagram.com/wells.ps/" target="_blank"><SiInstagram size="1.5rem" /></a></li>
+                    <li><a href="https://open.spotify.com/playlist/7DeyqatZJVPp7kz0rwIDJ3?si=ab4cf4a95ec44d24" target="_blank"><SiSpotify size="1.5rem" /></a></li>
                 </ul>
             </SocialWrapperStyles>
             <Animation />
