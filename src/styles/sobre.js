@@ -29,26 +29,4 @@ const SobreWrapper = styled.div`
 export default SobreWrapper;
 
 
-export const FigureWrapper = styled.div`
-
-    width: 40rem;
-    margin-top: 4rem;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
-    div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-
-        figcaption {
-            margin-top: 0.7rem;
-        }
-    }
-
-`;
 

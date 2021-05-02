@@ -1,14 +1,14 @@
 import React from 'react'
 import { PerfilWrapperStyles, SocialWrapperStyles } from './styles.module'
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { SiGmail, SiDiscord, SiInstagram, SiSpotify } from "react-icons/si";
+import { SiDiscord, SiInstagram, SiSpotify } from "react-icons/si";
 import Animation from './Animacao/Animation'
 
 
 export default function Perfil() {
     return (
         <PerfilWrapperStyles>
-            <img src="./2.jpg" alt="foto wellington" />
+            <img src="./foto.png" alt="foto wellington" />
             <div>
                 <h1>Wellington P. Silva</h1>
                 <h2>Ciência da Computação</h2>

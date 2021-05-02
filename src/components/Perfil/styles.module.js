@@ -18,6 +18,7 @@ export const PerfilWrapperStyles = styled.div`
         height: 15rem;
         width: 15rem;
         border-radius: 50%;
+        box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
     }
 
     h2{

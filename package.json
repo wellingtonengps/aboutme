@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "server": "next server",
-    "export":"next export",
+    "export": "next export",
     "deploy": "next build && next export"
   },
   "dependencies": {

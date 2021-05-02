@@ -1,10 +1,10 @@
 import React from 'react'
-import SobreWrapper, { FigureWrapper } from '../styles/sobre';
+import FormacaoWrapper from '../styles/formacao';
 
 
 export default function Formacao() {
     return (
-        <SobreWrapper>
+        <FormacaoWrapper>
             <div>
                 <h2>Formação</h2>
                 <p>
@@ -17,17 +17,16 @@ export default function Formacao() {
                     scelerisque lobortis sed non risus. Phasellus rhoncus est eget magna auctor, a consectetur urna pulvinar.
                 </p>
             </div>
-            <FigureWrapper>
-                <div>
+            <div className="grid">
+                <figure>
                     <img src="./logo_ufjf.png" alt="logo ufjf" height="100rem" />
                     <figcaption>(Atualmente) Ciência da Computação</figcaption>
-                </div>
-                <div>
+                </figure>
+                <figure>
                     <img src="./logo_ufvjm.png" alt="logo ufjf" height="100rem" />
                     <figcaption>Interdiciplinar em Ciência e Tecnologia</figcaption>
-                </div>
-
-            </FigureWrapper>
-        </SobreWrapper>
+                </figure>
+            </div>
+        </FormacaoWrapper>
     )
 }
