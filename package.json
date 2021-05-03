@@ -24,9 +24,5 @@
     "@types/react": "^17.0.3",
     "babel-plugin-styled-components": "latest",
     "typescript": "^4.2.4"
-  },
-  "engines": {
-    "node": "15.11.0",
-    "npm": "7.6.0"
   }
 }
