@@ -8,7 +8,7 @@ import Animation from './Animacao/Animation'
 export default function Perfil() {
     return (
         <PerfilWrapperStyles>
-            <img src="./foto.png" alt="foto wellington" height={100} width={100} />
+            <img src="./foto.png" alt="foto wellington" size="1rem" />
             <div>
                 <h1>Wellington P. Silva</h1>
                 <h2>Ciência da Computação</h2>
