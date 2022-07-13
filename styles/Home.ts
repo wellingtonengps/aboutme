@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 0 0 0 15rem;
   background-color: #333;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+  max-width: 60rem;
 `;
 
 export const Main = styled.main`
   min-height: 100vh;
-  padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -32,6 +33,7 @@ export const Title = styled.div`
   text-align: left;
   font-family: "Luckiest Guy";
   max-width: 18rem;
+  letter-spacing: 0.1rem;
 `;
 
 export const Description = styled.div`
@@ -46,9 +48,21 @@ export const Description = styled.div`
 
 export const SocialLinks = styled.div`
   display: flex;
-  width: 100%;
-  height: 36px;
-  background-color: red;
+  width: 14rem;
+  height: 40px;
+  margin-bottom: 48px;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const SubTitle = styled.div`
+  h2 {
+    margin: 0;
+    line-height: 1.15;
+    letter-spacing: 0.15rem;
+    text-align: left;
+    font-family: "Luckiest Guy";
+  }
 `;
 
 export const Footer = styled.footer`

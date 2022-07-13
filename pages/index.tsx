@@ -1,7 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import { Card, Container, Description, Footer, Grid, Logo, Main, Title, Header, SocialLinks } from "../styles/Home"
+import { IconButton } from '../components'
+import { Card, Container, Description, Footer, Grid, Logo, Main, Title, Header, SocialLinks, SubTitle } from "../styles/Home"
 
 const Home: NextPage = () => {
   return (
@@ -22,8 +23,14 @@ const Home: NextPage = () => {
           </Description>
         </Header>
         <SocialLinks>
-
+          <IconButton Icon='github' />
+          <IconButton Icon='email' />
+          <IconButton Icon='linkedin' />
+          <IconButton Icon='spotify' />
         </SocialLinks>
+        <SubTitle>
+          <h2>Work & projects</h2>
+        </SubTitle>
 
         <Grid>
           <Card href="https://nextjs.org/docs">
