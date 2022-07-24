@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -58,6 +59,7 @@ export const SocialLinks = styled.div`
 export const SubTitle = styled.div`
   h2 {
     margin: 0;
+    margin-bottom: 1.35rem;
     line-height: 1.15;
     letter-spacing: 0.15rem;
     text-align: left;
