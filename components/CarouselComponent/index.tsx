@@ -14,7 +14,12 @@ const CarouselComponet = () => {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide style={{ minWidth: 200 }}>
-          <Image src={"/teste.png"} layout="fill" objectFit="cover" />
+          <Image
+            src={"/teste.png"}
+            layout="fill"
+            objectFit="cover"
+            alt="teste"
+          />
         </SwiperSlide>
         <SwiperSlide
           style={{ backgroundColor: "rgba(151, 151, 151,0.1)", minWidth: 212 }}
