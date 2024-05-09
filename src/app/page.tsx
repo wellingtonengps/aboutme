@@ -3,7 +3,7 @@ import Card from "@/components/Card";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-10 m:p-24">
         <div className="flex flex-col md:flex-row items-center">
             <Image src="/profile.svg" alt="profile" height={245} width={245}/>
             <div className="flex flex-col items-center md:items-start md:ml-20  mt-8 md:mt-0 ">
@@ -15,7 +15,7 @@ export default function Home() {
         </div>
         <div className="mt-8">
             <h1 className="mb-4 text-center text-2xl">Hard-Skills</h1>
-            <div className="grid grid-cols-1 grid-flow-row gap-5 md:grid-rows-1 md:grid-flow-col">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                 <Card/>
                 <Card/>
                 <Card/>
