@@ -12,69 +12,83 @@ import HotelIcon from '@mui/icons-material/Hotel';
 import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
 
-
 export default function CustomizedTimeline() {
-
     return (
-        <Timeline className="rotate-90" position="alternate" >
+        <Timeline position="alternate">
             <TimelineItem>
+
                 <TimelineSeparator>
                     <TimelineConnector />
-                    <TimelineDot className="-rotate-90">
+                    <TimelineDot>
                         <FastfoodIcon />
                     </TimelineDot>
                     <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent sx={{ py: '12px', px: 2 }} className="text-left">
-                    <Typography variant="h6" component="span" className="inline-block -rotate-90 text-center min-w-12">
-                        Eat
+                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span">
+                        UFVJM
                     </Typography>
-                    <Typography className="inline-block -rotate-90 text-center min-w-12">Because you need strength</Typography>
+                    <Typography>2017 - Bacharelado em Ciência e Tecnologia</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
                 <TimelineSeparator>
                     <TimelineConnector />
-                    <TimelineDot color="primary" className="-rotate-90">
+                    <TimelineDot color="primary">
                         <LaptopMacIcon />
                     </TimelineDot>
                     <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent sx={{ py: '12px', px: 2 }} className="text-left">
-                    <Typography variant="h6" component="span" className="inline-block -rotate-90 text-center min-w-12">
-                        Code
+                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span">
+                        UFJF
                     </Typography>
-                    <Typography className="inline-block -rotate-90 text-center min-w-12">Because it&apos;s awesome!</Typography>
+                    <Typography>2019 - Ciência da Computação</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
                 <TimelineSeparator>
                     <TimelineConnector />
-                    <TimelineDot color="primary" variant="outlined" className="-rotate-90">
+                    <TimelineDot color="primary" variant="outlined">
                         <HotelIcon />
                     </TimelineDot>
                     <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
                 </TimelineSeparator>
-                <TimelineContent sx={{ py: '12px', px: 2 }} className="text-left">
-                    <Typography variant="h6" component="span" className="inline-block -rotate-90 text-center min-w-12">
-                        Sleep
+                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span">
+                        Projeto Extensão
                     </Typography>
-                    <Typography className="inline-block -rotate-90 text-center min-w-12">Because you need rest</Typography>
+                    <Typography>Desenvolvedor React Native</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
                 <TimelineSeparator>
                     <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-                    <TimelineDot color="secondary" className="-rotate-90">
+                    <TimelineDot color="secondary">
                         <RepeatIcon />
                     </TimelineDot>
                     <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent sx={{ py: '12px', px: 2 }} className="text-left">
-                    <Typography variant="h6" component="span" className="inline-block -rotate-90 text-center min-w-12">
-                        Repeat
+                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span">
+                        Iniciação Tecnologica
                     </Typography>
-                    <Typography className="inline-block -rotate-90 text-center min-w-12">Because this is the life you love!</Typography>
+                    <Typography>Centro Regional de Inovação e Transferência de Tecnologia</Typography>
+                </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+                <TimelineSeparator>
+                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+                    <TimelineDot color="secondary">
+                        <RepeatIcon />
+                    </TimelineDot>
+                    <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                    <Typography variant="h6" component="span">
+                        Hospital Unimed Dr. Hugo Borges
+                    </Typography>
+                    <Typography>Estagiário de Suporte TI</Typography>
                 </TimelineContent>
             </TimelineItem>
         </Timeline>
