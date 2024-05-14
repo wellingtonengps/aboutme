@@ -38,10 +38,10 @@ export default function Home() {
             <div className="flex flex-col mt-8 items-center ">
                 <h1 className="mb-4 text-center text-2xl">Hard-Skills</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5">
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
+                    <Card title="Linguagem de Programação"/>
+                    <Card title="Frameworks"/>
+                    <Card title="Banco de Dados"/>
+                    <Card title="Utilitários"/>
                 </div>
             </div>
             <div className="flex flex-col mt-8 items-center ">

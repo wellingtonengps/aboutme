@@ -11,10 +11,11 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import HotelIcon from '@mui/icons-material/Hotel';
 import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
+import {maxWidth} from "@mui/system";
 
 export default function CustomizedTimeline() {
     return (
-        <Timeline position="alternate">
+        <Timeline position="alternate" sx={{display: 'flex'}} className="w-full">
             <TimelineItem>
                 <TimelineSeparator>
                     <TimelineConnector />
@@ -41,7 +42,7 @@ export default function CustomizedTimeline() {
                     <Typography variant="h6" component="span">
                         Iniciação Científica
                     </Typography>
-                    <Typography>bla bla bla</Typography>
+                    <Typography>Desenvolvimento de pesquisa do ICET em parceria com a FAMUC</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
@@ -68,9 +69,9 @@ export default function CustomizedTimeline() {
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span">
-                        Projeto Extensão
+                        Projeto Pró-Inclusão
                     </Typography>
-                    <Typography>Desenvolvedor React Native</Typography>
+                    <Typography>Bolsista de Desenvolvimento React Native</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
@@ -84,7 +85,7 @@ export default function CustomizedTimeline() {
                     <Typography variant="h6" component="span">
                         CRITT
                     </Typography>
-                    <Typography>Bolsista Inciação Tecnologica: Suporte TI</Typography>
+                    <Typography>Bolsista de Inciação Tecnologica: Suporte TI</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
