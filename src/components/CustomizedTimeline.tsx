@@ -16,7 +16,6 @@ export default function CustomizedTimeline() {
     return (
         <Timeline position="alternate">
             <TimelineItem>
-
                 <TimelineSeparator>
                     <TimelineConnector />
                     <TimelineDot>
@@ -34,10 +33,24 @@ export default function CustomizedTimeline() {
             <TimelineItem>
                 <TimelineSeparator>
                     <TimelineConnector />
-                    <TimelineDot color="primary">
-                        <LaptopMacIcon />
+                    <TimelineDot>
                     </TimelineDot>
                     <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent sx={{ py: '12px', px: 2}}>
+                    <Typography variant="h6" component="span">
+                        Iniciação Científica
+                    </Typography>
+                    <Typography>bla bla bla</Typography>
+                </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+                <TimelineSeparator>
+                    <TimelineConnector />
+                    <TimelineDot color="primary" variant="outlined">
+                        <LaptopMacIcon />
+                    </TimelineDot>
+                    <TimelineConnector sx={{ bgcolor: 'primary.main' }}/>
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span">
@@ -48,11 +61,10 @@ export default function CustomizedTimeline() {
             </TimelineItem>
             <TimelineItem>
                 <TimelineSeparator>
-                    <TimelineConnector />
-                    <TimelineDot color="primary" variant="outlined">
-                        <HotelIcon />
+                    <TimelineConnector sx={{ bgcolor: 'primary.main' }}/>
+                    <TimelineDot color="primary" >
                     </TimelineDot>
-                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+                    <TimelineConnector sx={{ bgcolor: 'primary.main' }}/>
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span">
@@ -63,32 +75,31 @@ export default function CustomizedTimeline() {
             </TimelineItem>
             <TimelineItem>
                 <TimelineSeparator>
-                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-                    <TimelineDot color="secondary">
-                        <RepeatIcon />
+                    <TimelineConnector sx={{ bgcolor: 'primary.main' }}/>
+                    <TimelineDot color="primary">
                     </TimelineDot>
-                    <TimelineConnector />
+                    <TimelineConnector sx={{ bgcolor: 'primary.main' }}/>
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span">
-                        Iniciação Tecnologica
+                        CRITT
                     </Typography>
-                    <Typography>Centro Regional de Inovação e Transferência de Tecnologia</Typography>
+                    <Typography>Bolsista Inciação Tecnologica: Suporte TI</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
                 <TimelineSeparator>
-                    <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-                    <TimelineDot color="secondary">
+                    <TimelineConnector sx={{ bgcolor: '#00995d' }} />
+                    <TimelineDot sx={{bgcolor: "#00995d"}}>
                         <RepeatIcon />
                     </TimelineDot>
-                    <TimelineConnector />
+                    <TimelineConnector sx={{bgcolor: "#00995d"}}/>
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                     <Typography variant="h6" component="span">
                         Hospital Unimed Dr. Hugo Borges
                     </Typography>
-                    <Typography>Estagiário de Suporte TI</Typography>
+                    <Typography>2023 - Estagiário de Suporte TI</Typography>
                 </TimelineContent>
             </TimelineItem>
         </Timeline>
