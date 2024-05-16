@@ -12,6 +12,10 @@ import HotelIcon from '@mui/icons-material/Hotel';
 import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
 import {maxWidth} from "@mui/system";
+import Image from 'next/image'
+import Icon from '@mui/material/Icon';
+import SchoolIcon from '@mui/icons-material/School';
+import WorkIcon from '@mui/icons-material/Work';
 
 export default function CustomizedTimeline() {
     return (
@@ -19,8 +23,8 @@ export default function CustomizedTimeline() {
             <TimelineItem>
                 <TimelineSeparator>
                     <TimelineConnector />
-                    <TimelineDot>
-                        <FastfoodIcon />
+                    <TimelineDot variant="outlined">
+                        <SchoolIcon/>
                     </TimelineDot>
                     <TimelineConnector />
                 </TimelineSeparator>
@@ -40,16 +44,16 @@ export default function CustomizedTimeline() {
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '12px', px: 2}}>
                     <Typography variant="h6" component="span">
-                        Iniciação Científica
+                        Projeto de Iniciação Científica
                     </Typography>
-                    <Typography>Desenvolvimento de pesquisa do ICET em parceria com a FAMUC</Typography>
+                    <Typography>Bolsista de Iniciação Científica</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
                 <TimelineSeparator>
                     <TimelineConnector />
-                    <TimelineDot color="primary" variant="outlined">
-                        <LaptopMacIcon />
+                    <TimelineDot color="primary" >
+                        <SchoolIcon/>
                     </TimelineDot>
                     <TimelineConnector sx={{ bgcolor: 'primary.main' }}/>
                 </TimelineSeparator>
@@ -71,7 +75,7 @@ export default function CustomizedTimeline() {
                     <Typography variant="h6" component="span">
                         Projeto Pró-Inclusão
                     </Typography>
-                    <Typography>Bolsista de Desenvolvimento React Native</Typography>
+                    <Typography>Bolsista de Extensão</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
@@ -85,14 +89,14 @@ export default function CustomizedTimeline() {
                     <Typography variant="h6" component="span">
                         CRITT
                     </Typography>
-                    <Typography>Bolsista de Inciação Tecnologica: Suporte TI</Typography>
+                    <Typography>Bolsista de Inciação Tecnologica</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
                 <TimelineSeparator>
                     <TimelineConnector sx={{ bgcolor: '#00995d' }} />
-                    <TimelineDot sx={{bgcolor: "#00995d"}}>
-                        <RepeatIcon />
+                    <TimelineDot color="primary" sx={{bgcolor: "#00995d"}}>
+                        <WorkIcon/>
                     </TimelineDot>
                     <TimelineConnector sx={{bgcolor: "#00995d"}}/>
                 </TimelineSeparator>

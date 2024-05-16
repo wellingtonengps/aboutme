@@ -19,6 +19,7 @@ export default function Home() {
                         <Image src="/work_icon.svg" alt="school icon" height={22} width={22}/>
                         <h2>Estagiário de Suporte</h2>
                     </div>
+
                     <div className="flex flex-row gap-3">
                         <Image src="/apartment_icon.svg" alt="school icon" height={22} width={22}/>
                         <h2>Hospital Unimed Dr. Hugo Borges</h2>
