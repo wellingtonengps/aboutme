@@ -29,10 +29,10 @@ export default function CustomizedTimeline() {
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '12px', px: 2 }}>
-                    <Typography variant="h6" component="span">
+                    <Typography className="text-base" component="span">
                         UFVJM
                     </Typography>
-                    <Typography>2017 - Bacharelado em Ciência e Tecnologia</Typography>
+                    <Typography className="text-sm">2017 - Bacharelado em Ciência e Tecnologia</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
@@ -43,10 +43,10 @@ export default function CustomizedTimeline() {
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '12px', px: 2}}>
-                    <Typography variant="h6" component="span">
+                    <Typography className="text-base" component="span">
                         Projeto de Iniciação Científica
                     </Typography>
-                    <Typography>Bolsista de Iniciação Científica</Typography>
+                    <Typography className="text-sm">Bolsista de Iniciação Científica</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
@@ -58,10 +58,10 @@ export default function CustomizedTimeline() {
                     <TimelineConnector sx={{ bgcolor: 'primary.main' }}/>
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '12px', px: 2 }}>
-                    <Typography variant="h6" component="span">
+                    <Typography className="text-base" component="span">
                         UFJF
                     </Typography>
-                    <Typography>2019 - Ciência da Computação</Typography>
+                    <Typography className="text-sm">2019 - Ciência da Computação</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
@@ -72,10 +72,10 @@ export default function CustomizedTimeline() {
                     <TimelineConnector sx={{ bgcolor: 'primary.main' }}/>
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '12px', px: 2 }}>
-                    <Typography variant="h6" component="span">
+                    <Typography className="text-base" component="span">
                         Projeto Pró-Inclusão
                     </Typography>
-                    <Typography>Bolsista de Extensão</Typography>
+                    <Typography className="text-sm">Bolsista de Extensão</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
@@ -86,10 +86,10 @@ export default function CustomizedTimeline() {
                     <TimelineConnector sx={{ bgcolor: 'primary.main' }}/>
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '12px', px: 2 }}>
-                    <Typography variant="h6" component="span">
+                    <Typography className="text-base" component="span">
                         CRITT
                     </Typography>
-                    <Typography>Bolsista de Inciação Tecnologica</Typography>
+                    <Typography className="text-sm">Bolsista de Inciação Tecnologica</Typography>
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
@@ -101,10 +101,10 @@ export default function CustomizedTimeline() {
                     <TimelineConnector sx={{bgcolor: "#00995d"}}/>
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: '12px', px: 2 }}>
-                    <Typography variant="h6" component="span">
+                    <Typography className="text-base" component="span">
                         Hospital Unimed Dr. Hugo Borges
                     </Typography>
-                    <Typography>2023 - Estagiário de Suporte TI</Typography>
+                    <Typography className="text-sm">2023 - Estagiário de Suporte TI</Typography>
                 </TimelineContent>
             </TimelineItem>
         </Timeline>
